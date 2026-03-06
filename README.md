@@ -1,39 +1,33 @@
-# CharityTrack 🛡️
+# CharityTrack AI 🛡️ (by Team VibeSync)
 
-**Tagline:** Bridging the trust gap in African Philanthropy through API-driven transparency.
+**Tagline:** Automating Trust in African Philanthropy through AI-Driven Transparency.
 
 ## 👥 The Team
-* **Michael Omijie** - System Architect & Integration Engineer 
-* **Tochi Ajero** - Lead Frontend Developer
+* **Michael Omijie** - Founder & Lead Product Developer (AI Architecture)
+* **Tochi Ajero** - Co-Founder & Lead Frontend Engineer (UI/UX)
 
 ## 🚀 Project Overview
-CharityTrack is a "Social Services" solution built for the **Build With Interswitch & Enyata Buildathon 2026**. 
+CharityTrack AI is an intelligent "Social Services" solution built for the **Build With Interswitch & Enyata Buildathon 2026**. 
 
-In Nigeria and across Africa, many donors are hesitant to give to charities due to a lack of transparency. CharityTrack solves this by tracking every donation from the moment it is made until the moment it is spent on a verified service provider.
+In Africa, donor fatigue is often caused by a "Trust Deficit." We solve this by combining Interswitch’s financial infrastructure with **Machine Learning** to ensure every Naira is tracked, audited, and verified from donor to vendor.
 
-## 🛠️ The Problem
-* **Trust Deficit:** Donors don't know if their money reaches the final destination.
-* **Manual Reconciliation:** NGOs struggle with manual tracking of multiple small donations.
-* **Fund Diversion:** Funds often don't reach the actual vendors (hospitals, suppliers, etc.).
+## 🧠 The AI Advantage
+Unlike standard donation apps, CharityTrack AI includes:
+* **The Fraud Sentinel:** An Anomaly Detection model (Scikit-Learn) that flags suspicious disbursement patterns in real-time.
+* **Predictive Impact Engine:** Using Data Science to translate raw currency into tangible outcomes (e.g., "10k NGN = 5 Malaria Kits").
+* **Smart Verification:** Automated cross-referencing of NGO credentials via Interswitch KYC APIs.
 
-## 💡 The Solution (Interswitch API Integration)
-We leverage the Interswitch ecosystem to automate trust:
-1. **Identity & Verification (KYC):** We use the **Interswitch BVN/CAC API** to verify every listed charity.
-2. **Web Checkout (IPG):** Seamlessly collect donations via Cards, USSD, and Bank Transfers.
-3. **Wallet Services (SVA):** Every project has a dedicated virtual wallet to hold funds securely.
-4. **Disbursement (AutoPay):** Funds are paid directly to verified vendors/merchants, ensuring the money is used exactly for its intended purpose.
+## 💡 Interswitch API Integration
+We leverage the Interswitch Marketplace to power our backend:
+* **Web Checkout (IPG):** Seamless multi-channel donation collection.
+* **Wallet Services (SVA):** Secure escrow for project-specific funds.
+* **Disbursement (AutoPay):** Automated payments to verified vendors once AI audit clears the request.
 
 ## 🏗️ Tech Stack
-* **Architecture:** Vibe-Coded Backend (Node.js/Express) by Michael Omijie
-* **Frontend:** Next.js & Tailwind CSS by Tochi Ajero
-* **Database:** Supabase / MongoDB
-* **APIs:** Interswitch Developer Gateway (Sandbox Mode)
-
-## 🏁 Getting Started
-1. Clone the repo: `git clone [https://github.com/Mikomijie/charity-track]`
-2. Install dependencies: `npm install`
-3. Set up `.env` with Interswitch `ClientID` and `Secret`.
-4. Run the dev server: `npm run dev`
+* **AI/ML:** Python (Anomaly Detection) & Gemini API (Reasoning)
+* **Backend:** Node.js (Vibe-Coded Architecture)
+* **Frontend:** Next.js & Tailwind CSS
+* **APIs:** Interswitch Developer Console (Sandbox)
 
 ---
 *Built with ❤️ for the Interswitch & Enyata Community Buildathon 2026.*
